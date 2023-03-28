@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nomination Form | XYZ Company</title>
+	<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mohave:wght@700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Nothing+You+Could+Do&display=swap');
+
+		body {
+			font-family: 'Montserrat', sans-serif;
+			margin: 0;
+			padding: 60px;
+      background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+		}
+
+		header {
+			background-color: #ffffffe6;
+			color: #2e2d2d;
+			padding: 1rem;
+			text-align: center;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 2rem;
+		}
+
+		main {
+			margin: 0 auto;
+		}
+
+		section {
+			margin-bottom: 2rem;
+		}
+
+    .about{
+     border-bottom: 1px solid black;
+     width: 400px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     font-size: 30px;
+     text-align: center;
+     font-weight: 25px;
+  }
+
+        .criteria{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 30px;
+            width: 700px;
+            text-align: center;
+        }
+
+        .contact-us{
+            width: 180px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        .apply{
+            width: 200px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .about-para{
+            padding: 25px;
+            background-color: rgb(255, 255, 255);
+            width: 1200px;
+            margin: 0 auto;
+            box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            word-spacing: 0.6px;
+            font-size: 20px;
+        }
+
+        .col-lg-12{
+            background-color: rgb(255, 255, 255);
+            width: 1200px;
+            margin: 0 auto;
+            box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+
+        }
+
+        .offer{
+            font-size: 25px;
+            text-align: center;
+        }
+    
+        .list{
+            font-size: 18px;
+            width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0a9;
+            color: rgb(71, 68, 68);
+            font-weight: bold;
+            border-radius: 8px;
+             box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .form{
+            padding: 20px;
+            gap: 10px;
+        }
+         
+        .about-details{
+          font-size: 18px;
+        }
+
+		section h2 {
+			font-size: 1.5rem;
+            margin: 0 auto;
+            width: 500px;
+            border-bottom: 1px solid black;
+        
+		}
+
+		section p {
+			margin: 0;
+            font-size: 20px;
+            padding: 10px;
+            
+		}
+
+    .col-md-3{
+      text-align: center;
+    }
+
+		section ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+    .ul-list{
+      border-bottom: 1px solid black;
+      width: 800px;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .job-details{
+      font-size: 18px;
+    }
+
+		section ul li {
+			margin-bottom: 0.5rem;
+		}
+
+    .selection-ul{
+      border-top: 1px solid black;
+      width: 800px;
+      margin-top: 10px;
+      padding: 15px;
+    }
+
+		section ul li a {
+			color: #333;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+
+		section ul li a:hover {
+			color: #666;
+		}
+
+		section form {
+			margin-top: 1rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: #f0f0f0;
+			padding: 1rem;
+			border-radius: 0.5rem;
+		}
+
+		section form input[type="submit"] {
+      margin-top: 15px;
+			background-color: #333;
+			color: #fff;
+			padding: 8px 20px;
+			border: none;
+			border-radius: 0.25rem;
+			cursor: pointer;
+		}
+
+    #resume{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      font-size: 18px;
+      align-items: center;
+    }
+
+    .form input{
+      padding: 8px 150px;
+    }
+
+    .form label{
+      font-size: 16px;
+      padding: 10px;
+      font-weight: bolder;
+    }
+
+		section form input[type="submit"]:hover {
+			background-color: #666;
+		}
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 1rem;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Nomination Form | XYZ Company</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2 class="about">About Our Company</h2>
+            <div class="about-para">
+              <h3>About Us</h3>
+			<p class="about-details"> We are in Salesforce ecosystem with more than 10 years of experience in different verticals of Salesforce platform.  We have Knowledge &amp; Experience to help you to save your
+                 energy and invest in your worth business.  We do Solutioning &amp; Designing to best fit Salesforce as per your Business model &amp; needs.  We also suggest to best use out of the system.  We do App-exchange products development and have expertise with
+                  product development life cycle &amp; customer support.  We do consulting &amp; development and we are expert in the domain.  Configuration, Implementation, Integration, App-exchange products, Lightning, LWC, Communities, Marketing, Einstein are our areas here.
+		    We are looking for candidates, who can help us create a seamless, personalized experience for our customers and stakeholders through innovative solutions and who aspire to launch a dynamic career in the IT industry with xyz company.</p><br>
+			<p>Click here to view <a href="https://xyz.in/">Official Website</a></p>
+            </div>
+		</section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="criteria">Eligibility criteria and basic information</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            
+            <h3 class="offer">What we offer:</h3>
+            <div class="list">
+            <ul class="ul-list">
+              <li>• An amazing Career growth path to ensure your personal growth and skill enhancement</li>
+              <li>• Latest technologies to work on (LWC)</li>
+              <li>• We have one of the best work environments in context to innovation and experimentation</li>
+              <li>• Multiple projects and a variety of clients</li>
+              <li>• Opportunities to expand horizons and explore your talents</li>
+              <li>• Flexible and supportive work culture</li>
+            </ul> 
+            <p class="job-details">Job Role: Salesforce Developer<br><br>
+            Remuneration: 5-8 Lacs per annum<br><br>
+            Stipend during probation of First 9 months: Rs. 15,000<br><br>
+            Employment Type: Full-time after successfully completing 9 months' probation<br><br>
+            Work Location: Jaipur, Rajasthan.
+             Selection Process:</p>
+            <ul class="selection-ul">
+              <li>1. Online test- Assessment duration will be of 2 hours 10 Min (10 min MCQs and 120 min Programming)</li>
+              <li>2. Technical round</li>
+              <li>3. HR round</li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-header">
+              <h2 class="contact-us">Contact Us</h2>
+            </div>
+            <div class="contact">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="contact-email">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@xyz.com">info@xyz.com</a></p>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="contact-phone">
+                    <h3>Phone Number</h3>
+                    <p>+91 1234567890</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                </div>
+
+                  <section>
+                    <h2 class="apply">Apply Now</h2>
+                    <form action="#" method="POST" class="form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="name">Middle Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="name">Last Name:</label>
+                        <input type="text" id="name" name="name" required>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="Orgnisation">Orgnisation:</label>
+                        <input type="text" id="name" name="Orgnisation" required>
+            
+                        <label for="title">Title:</label>
+                        <input type="text" id="email" name="title" required>
+
+                        <label for="name">Address:</label>
+                        <input type="text" id="name" name="address" required>
+
+                        <label for="name">City:</label>
+                        <input type="text" id="name" name="city" required>
+
+                        <label for="name">Mobile No.:</label>
+                        <input type="text" id="name" name="number" required>
+            
+                        <label for="resume">Resume:</label>
+                        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            
+                        <input type="submit" value="Submit">
+                    </form>
+                </section>
+            </main>
+            
+            <footer>
+                <p>Copyright © XYZ Company</p>
+            </footer>
